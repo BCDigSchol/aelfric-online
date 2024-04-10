@@ -11,41 +11,38 @@ theme-color: indigo # indigo|yellow|pink|green|stone|
 
 # nav bar settings and links
 nav-menu:
-  - title: About
-    submenu:
-      - title: Publication by Subscription
-        link: subpub
-      - title: This Project
-        link: project
-      - title: The Author
-        link: author
-  - title: Dataset
-    submenu:
-      - title: EEBS Dataset
-        link: dataset
-      - title: Conventions
-        link: conventions
-      - title: Data Dictionary
-        link: dictionary
-  - title: Initial Findings
-    submenu:
-      - title: Gender and Genre
-        link: gender-and-genre
-      - title: Class and Education
-        link: class-and-education
-      - title: Notable Bibliophiles
-        link: bibliophiles
-  - title: Further Readings
-    link: further-readings
   - title: Home
     link: index
+  - title: About
+    link: about
+  - title: Homilies
+    link: homilies
+    submenu:
+      - title: Preface
+        link: preface
+      - title: Feasts of Saint Peter & Paul
+        link: aelfric-peter-paul
+      - title: Assumption of the Blessed Virgin Mary
+        link: aelfric-assumption-mary
+      - title: All Saints' Day
+        link: aelfric-all-saints
+  - title: Ælfric's World
+    link: world
+    submenu:
+      - title: Historical Context
+        link: history
+      - title: Geography of Cerne
+        link: geography
+      - title: Liturgical Year
+        link: liturgical-year
 
 # sets whether a search bar appears on the site header
 # NOTE, you will have to increase the site of teh $site-header-height in _sass/theme-settings.scss to to see the search bar
 search-bar: false
 
 hide-footer: false # set to true to hide the footer
-footer-message: Ælfric Online | CC BY-NC License
+footer-message: Ælfric Online | CC BY-NC License | Most historical material is in the public domain unless otherwise indicated
+footer-submessage:  By Chase Hockema, Produced in Collaboration with the Digital Scholarship Group, Boston College
 footer-submessage-link: https://ds.bc.edu
 
 # google-analytics: // if you want to use Google analytics, include your ID here

@@ -149,6 +149,22 @@ footer a:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.button {
+    background-color: $site-header-color;
+    color: $link-header-base-color;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button a, header a:visited {
+    color: $link-header-base-color !important;
+    text-decoration: none;
+}
+  
+.button a:hover {
+    color: $link-header-hover-color !important;
+    text-decoration: none;
+}
+
 /* Used for regular dropdown menus*/
 .dropdown {
     position: relative;
