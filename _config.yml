@@ -41,8 +41,8 @@ nav-menu:
 search-bar: false
 
 hide-footer: false # set to true to hide the footer
-footer-message: Ælfric Online | CC BY-NC License | Most historical material is in the public domain unless otherwise indicated
-footer-submessage:  By Chase Hockema, Produced in Collaboration with the Digital Scholarship Group, Boston College
+footer-message: Ælfric Online | CC BY-NC License
+footer-submessage:  By Chase Hockema, with the Digital Scholarship Group, Boston College
 footer-submessage-link: https://ds.bc.edu
 
 # google-analytics: // if you want to use Google analytics, include your ID here

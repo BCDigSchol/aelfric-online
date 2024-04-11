@@ -101,11 +101,6 @@ footer a:hover {
 
 .subfooter-container {
     background-color: $site-accent-color;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-items: flex-start;
-    justify-content: center;
 }
 
 /* position and width  of the page body content */
@@ -245,19 +240,7 @@ p.bibliography a {
     transition: 1s
 }
 
-.nav-bar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 0px 10px 0px 10px;
-
-}
-
 .mobile-nav-dropdown-button {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-items: center;
     position: relative;
 }
   
@@ -275,10 +258,6 @@ p.bibliography a {
   
 .mobile-nav-dropdown-button:hover .nav-dropdown-content {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    text-align: center;
 }
 
 .nav-dropdown-content a, .nav-dropdown-content a:visited {
@@ -332,9 +311,6 @@ p.bibliography a {
 
     .normal-header {
         display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        justify-items: center;
     }
 
     .mobile-header {
@@ -372,10 +348,6 @@ p.bibliography a {
 
     .mobile-header {
         display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: center;
-        padding: 10px;
     }
 }
 
@@ -412,10 +384,6 @@ p.bibliography a {
     }
 
     .mobile-header {
-        padding: 10px;
         display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: center;
     }
 }
